@@ -1,0 +1,45 @@
+{
+  "app": {"name": "إيماجن", "tagline": "معاملات إلكترونية آمنة"},
+  "nav": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "dashboard": "لوحة التحكم",
+    "profile": "الملف الشخصي",
+    "transactions": "المعاملات",
+    "disputes": "النزاعات",
+    "admin": "الإدارة",
+    "users": "المستخدمون",
+    "settings": "الإعدادات",
+    "signIn": "تسجيل الدخول",
+    "getStarted": "ابدأ الآن",
+    "signOut": "تسجيل الخروج",
+    "searchPlaceholder": "ابحث عن المنتجات..."
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "browseProducts": "تصفح المنتجات",
+    "aboutUs": "من نحن",
+    "helpCenter": "مركز المساعدة",
+    "contactUs": "اتصل بنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "contactInfo": "معلومات الاتصال",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 شارع الأعمال\nجناح 100\nنيويورك، NY 10001",
+    "copyright": "© 2024 منصة إيماجن. جميع الحقوق محفوظة.",
+    "security": "الأمان",
+    "disputeResolution": "حل النزاعات",
+    "howEscrowWorks": "كيف يعمل الضمان"
+  },
+  "home": {
+    "hero": {"title1": "معاملات إلكترونية آمنة", "title2": "بكل سهولة", "subtitle": "اشترِ وبِع بثقة. أموالك محفوظة حتى تأكيد الاستلام.", "browse": "تصفح المنتجات", "dashboard": "اذهب للوحة التحكم", "getStarted": "ابدأ مجاناً"},
+    "why": {"title": "لماذا إيماجن؟", "subtitle": "نبني للآمان والثقة وتجربة سلسة.", "features": {"secureEscrowTitle": "ضمان آمن", "secureEscrowDesc": "المدفوعات محفوظة حتى تأكيد التسليم.", "trustedCommunityTitle": "مجتمع موثوق", "trustedCommunityDesc": "مشتريون وبائعون موثقون.", "easyTransactionsTitle": "معاملات سهلة", "easyTransactionsDesc": "دفع بسيط وآمن.", "disputeResolutionTitle": "حل النزاعات", "disputeResolutionDesc": "وساطة بشرية لنتائج عادلة."}},
+    "how": {"title": "كيف تعمل", "subtitle": "خطوات بسيطة", "step1Title": "تصفح واختر", "step1Desc": "ابحث عن المنتج المناسب.", "step2Title": "دفع آمن", "step2Desc": "الدفع محفوظ حتى التأكيد.", "step3Title": "أكد وأنهِ", "step3Desc": "يُدفع للبائع بعد التأكيد."},
+    "testimonials": {"title": "آراء المستخدمين", "subtitle": "آلاف المستخدمين الراضين"},
+    "cta": {"title": "جاهز للبدء؟", "subtitle": "انضم إلى منصتنا الآمنة.", "createAccount": "أنشئ حساباً"},
+    "stats": {"activeUsers": "مستخدمون نشطون", "productsListed": "منتجات مدرجة", "successfulTransactions": "معاملات ناجحة", "disputeResolutionRate": "معدل حل النزاعات"}
+  },
+  "language": {"label": "اللغة", "en": "الإنجليزية", "am": "الأمهرية", "ti": "التيغرينية", "om": "أفان أورومو", "fr": "الفرنسية", "ar": "العربية"}
+}
+

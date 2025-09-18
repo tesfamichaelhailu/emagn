@@ -123,12 +123,12 @@ The frontend will be available at `http://localhost:3000`
 
 ## 🔐 Demo Accounts
 
-The system comes with pre-configured demo accounts:
+The system comes with pre-configured demo accounts (password is the literal word `password`):
 
-- **Buyer**: `buyer1@example.com` / `admin123`
-- **Seller**: `seller1@example.com` / `admin123`
-- **Admin**: `admin@emagn.com` / `admin123`
-- **Super Admin**: `superadmin@emagn.com` / `admin123`
+- **Buyer**: `buyer1@example.com` / `password`
+- **Seller**: `seller1@example.com` / `password`
+- **Admin**: `admin@emagn.com` / `password`
+- **Super Admin**: `superadmin@emagn.com` / `password`
 
 ## 📁 Project Structure
 

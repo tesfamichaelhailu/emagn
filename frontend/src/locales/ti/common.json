@@ -1,0 +1,45 @@
+{
+  "app": {"name": "እማኝ", "tagline": "ናይ መስመር ላይ ግብዪ ብሕርሻ"},
+  "nav": {
+    "home": "መእተዊ",
+    "products": "ምርታት",
+    "dashboard": "ዳሽቦርድ",
+    "profile": "ፕሮፋይል",
+    "transactions": "ንብረት ስርዓት",
+    "disputes": "ክርክራት",
+    "admin": "ዳሽቦርድ ኣስተዳዳሪ",
+    "users": "ተጠቃሚታት",
+    "settings": "ቅንብሮታት",
+    "signIn": "ኣብ ውሽጢ እትምል",
+    "getStarted": "ጀምር",
+    "signOut": "ውጣ",
+    "searchPlaceholder": "ምርታት ድለ..."
+  },
+  "footer": {
+    "quickLinks": "ፈጣን ሊንኮታት",
+    "browseProducts": "ምርታት ተመልከት",
+    "aboutUs": "ብዛዕባና",
+    "helpCenter": "ሓገዝ ማእከል",
+    "contactUs": "ተራኸብና",
+    "privacyPolicy": "ፖሊሲ ፕራይቨሲ",
+    "terms": "ቴርማት ኣገልግሎት",
+    "contactInfo": "መረጃ ርእይቶ",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 መንገዲ ንግዲ\nሱይት 100\nኒውዮርክ, NY 10001",
+    "copyright": "© 2024 እማኝ መድረክ. መሰረታዊ መብታት ሓደሽዎም.",
+    "security": "ድሕነት",
+    "disputeResolution": "መፍትሒ ክርክር",
+    "howEscrowWorks": "ኤስክሮ እንታይ ይስራ"
+  },
+  "home": {
+    "hero": {"title1": "ናይ መስመር ላይ ግብዪ ብሕርሻ", "title2": "ቀሊል እና ዝተዓወተ", "subtitle": "ብዕርግጠኛነት ዕድል ዕድል ግዜ ተግባር ገንዘብኩም ኣብ ኤስክሮ ይጠቐም.", "browse": "ምርታት ተመልከት", "dashboard": "ናብ ዳሽቦርድ ሂድ", "getStarted": "ነፃ ጀምር"},
+    "why": {"title": "መን ምስ እማኝ?", "subtitle": "ድሕነትን ተስፋን ቀሊል ተሞክሮ.", "features": {"secureEscrowTitle": "ድሕነት ኤስክሮ", "secureEscrowDesc": "ክፍያ ክስርዓት ክትያዙ ድረስ ይጠቕም.", "trustedCommunityTitle": "ታማኝ ማህበረሰብ", "trustedCommunityDesc": "ተረጋጊጾም ገዛእቲ ንግዲ ሻጮም.", "easyTransactionsTitle": "ቀሊል ክፍያ", "easyTransactionsDesc": "ቀሊል ን ምስ ተጠቐም መንገዲ ክፍያ.", "disputeResolutionTitle": "መፍትሒ ክርክር", "disputeResolutionDesc": "ብሰብ ኃይል ዝተመራ ፍትሒ."}},
+    "how": {"title": "እንታይ ይስራ", "subtitle": "ቀሊል እርምጃታት", "step1Title": "ድለ & ምርጫ", "step1Desc": "ምርት ምርጫ ኣእትው.", "step2Title": "ድሕነት ክፍያ", "step2Desc": "ክፍያ ኣብ ኤስክሮ ይጠቕም ክትያዙ ድረስ.", "step3Title": "ኣረጋግፅ & ፍጻሜ", "step3Desc": "ኣብ እቶ ዝተቐበሉ ድማ ሻጹ ይከፍል."},
+    "testimonials": {"title": "ኣተሓሳስባት ተጠቃሚታት", "subtitle": "ሕቡራት ተጠቃሚታት"},
+    "cta": {"title": "ተጀምሩ?", "subtitle": "ናብ ገበያና ተኣካእዱ", "createAccount": "መለያ ፍጠሩ"},
+    "stats": {"activeUsers": "ኣንቀሳቃሽ ተጠቃሚታት", "productsListed": "ዝተመዝገቡ ምርታት", "successfulTransactions": "ዝስከነ ግብዪ", "disputeResolutionRate": "መጠን መፍትሒ ክርክር"}
+  },
+  "language": {"label": "ቋንቋ", "en": "English", "am": "አማርኛ", "ti": "ትግርኛ", "om": "Afaan Oromoo", "fr": "Français", "ar": "العربية"}
+}
+

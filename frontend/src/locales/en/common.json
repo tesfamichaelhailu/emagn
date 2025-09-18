@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "Emagn",
+    "tagline": "Secure Online Transactions"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "transactions": "Transactions",
+    "disputes": "Disputes",
+    "admin": "Admin Dashboard",
+    "users": "Users",
+    "settings": "Settings",
+    "signIn": "Sign in",
+    "getStarted": "Get Started",
+    "signOut": "Sign out",
+    "searchPlaceholder": "Search products..."
+  },
+  "home": {
+    "hero": {
+      "title1": "Secure Online Transactions",
+      "title2": "Made Simple",
+      "subtitle": "Buy and sell with confidence. Our escrow system protects your money until delivery, while our dispute resolution ensures fair outcomes for everyone.",
+      "browse": "Browse Products",
+      "dashboard": "Go to Dashboard",
+      "getStarted": "Get Started Free"
+    },
+    "why": {
+      "title": "Why Choose Emagn?",
+      "subtitle": "We've built a platform that prioritizes security, trust, and seamless user experience.",
+      "features": {
+        "secureEscrowTitle": "Secure Escrow System",
+        "secureEscrowDesc": "Your payments are held safely until delivery confirmation, protecting both buyers and sellers.",
+        "trustedCommunityTitle": "Trusted Community",
+        "trustedCommunityDesc": "Join a community of verified buyers and sellers with transparent ratings and reviews.",
+        "easyTransactionsTitle": "Easy Transactions",
+        "easyTransactionsDesc": "Simple and secure payment processing with multiple payment methods supported.",
+        "disputeResolutionTitle": "Dispute Resolution",
+        "disputeResolutionDesc": "Human-mediated dispute resolution ensures fair outcomes for all parties."
+      }
+    },
+    "how": {
+      "title": "How It Works",
+      "subtitle": "Simple steps to secure transactions",
+      "step1Title": "Browse & Select",
+      "step1Desc": "Find the perfect product from our verified sellers and add it to your cart.",
+      "step2Title": "Secure Payment",
+      "step2Desc": "Your payment is held securely in escrow until you confirm delivery.",
+      "step3Title": "Confirm & Complete",
+      "step3Desc": "Once you receive and confirm your order, the seller gets paid automatically."
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "subtitle": "Join thousands of satisfied buyers and sellers"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join our secure marketplace today and experience worry-free transactions.",
+      "createAccount": "Create Your Account"
+    },
+    "stats": {
+      "activeUsers": "Active Users",
+      "productsListed": "Products Listed",
+      "successfulTransactions": "Successful Transactions",
+      "disputeResolutionRate": "Dispute Resolution Rate"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "browseProducts": "Browse Products",
+    "aboutUs": "About Us",
+    "helpCenter": "Help Center",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contactInfo": "Contact Info",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Business Street\nSuite 100\nNew York, NY 10001",
+    "copyright": "© 2024 Emagn Platform. All rights reserved.",
+    "security": "Security",
+    "disputeResolution": "Dispute Resolution",
+    "howEscrowWorks": "How Escrow Works"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "am": "Amharic",
+    "ti": "Tigrigna",
+    "om": "Afan Oromo",
+    "fr": "French",
+    "ar": "Arabic"
+  },
+  "auth": {
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signUpHere": "Sign up here"
+  },
+  "placeholders": {
+    "email": "Enter your email",
+    "password": "Enter your password"
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "passwordRequired": "Password is required",
+    "passwordMin": "Password must be at least 8 characters"
+  }
+}
+

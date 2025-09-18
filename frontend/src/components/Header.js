@@ -1,52 +1,58 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
-import { 
-  ShoppingBag, 
-  User, 
-  LogOut, 
-  Menu, 
-  X, 
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
+import { useTranslation } from "react-i18next";
+import {
+  ShoppingBag,
+  User,
+  LogOut,
+  Menu,
+  X,
   Search,
   Bell,
   Settings,
   Shield,
   Package,
   CreditCard,
-  MessageSquare
-} from 'lucide-react';
+  MessageSquare,
+} from "lucide-react";
 
 export const Header = () => {
   const { user, isAuthenticated, logout, hasRole } = useAuth();
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation("common");
 
   const handleLogout = () => {
     logout();
-    navigate('/');
+    navigate("/");
     setIsUserMenuOpen(false);
   };
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Products', href: '/products' },
+    { name: t("nav.home"), href: "/" },
+    { name: t("nav.products"), href: "/products" },
   ];
 
   const userNavigation = [
-    { name: 'Dashboard', href: '/dashboard', icon: User },
-    { name: 'Profile', href: '/profile', icon: User },
-    { name: 'Transactions', href: '/transactions', icon: CreditCard },
-    { name: 'Disputes', href: '/disputes', icon: MessageSquare },
+    { name: t("nav.dashboard"), href: "/dashboard", icon: User },
+    { name: t("nav.profile"), href: "/profile", icon: User },
+    { name: t("nav.transactions"), href: "/transactions", icon: CreditCard },
+    { name: t("nav.disputes"), href: "/disputes", icon: MessageSquare },
   ];
 
   const adminNavigation = [
-    { name: 'Admin Dashboard', href: '/admin', icon: Shield },
-    { name: 'Users', href: '/admin/users', icon: User },
-    { name: 'Products', href: '/admin/products', icon: Package },
-    { name: 'Transactions', href: '/admin/transactions', icon: CreditCard },
-    { name: 'Disputes', href: '/admin/disputes', icon: MessageSquare },
-    { name: 'Settings', href: '/admin/settings', icon: Settings },
+    { name: t("nav.admin"), href: "/admin", icon: Shield },
+    { name: t("nav.users"), href: "/admin/users", icon: User },
+    { name: t("nav.products"), href: "/admin/products", icon: Package },
+    {
+      name: t("nav.transactions"),
+      href: "/admin/transactions",
+      icon: CreditCard,
+    },
+    { name: t("nav.disputes"), href: "/admin/disputes", icon: MessageSquare },
+    { name: t("nav.settings"), href: "/admin/settings", icon: Settings },
   ];
 
   return (
@@ -59,7 +65,9 @@ export const Header = () => {
               <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
                 <ShoppingBag className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">Emagn</span>
+              <span className="text-xl font-bold text-gray-900">
+                {t("app.name")}
+              </span>
             </Link>
           </div>
 
@@ -84,10 +92,26 @@ export const Header = () => {
               </div>
               <input
                 type="text"
-                placeholder="Search products..."
+                placeholder={t("nav.searchPlaceholder")}
                 className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
+          </div>
+          {/* Language Selector */}
+          <div className="relative">
+            <select
+              aria-label={t("language.label")}
+              className="border border-gray-300 rounded-md text-sm px-2 py-1 bg-white text-gray-700"
+              value={i18n.language}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
+            >
+              <option value="en">{t("language.en")}</option>
+              <option value="am">{t("language.am")}</option>
+              <option value="ti">{t("language.ti")}</option>
+              <option value="om">{t("language.om")}</option>
+              <option value="fr">{t("language.fr")}</option>
+              <option value="ar">{t("language.ar")}</option>
+            </select>
           </div>
 
           {/* Right side */}
@@ -118,10 +142,14 @@ export const Header = () => {
                   {isUserMenuOpen && (
                     <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
                       <div className="px-4 py-2 border-b border-gray-100">
-                        <p className="text-sm font-medium text-gray-900">{user?.first_name} {user?.last_name}</p>
-                        <p className="text-xs text-gray-500 capitalize">{user?.role}</p>
+                        <p className="text-sm font-medium text-gray-900">
+                          {user?.first_name} {user?.last_name}
+                        </p>
+                        <p className="text-xs text-gray-500 capitalize">
+                          {user?.role}
+                        </p>
                       </div>
-                      
+
                       {userNavigation.map((item) => (
                         <Link
                           key={item.name}
@@ -134,7 +162,7 @@ export const Header = () => {
                         </Link>
                       ))}
 
-                      {hasRole(['admin', 'super_admin']) && (
+                      {hasRole(["admin", "super_admin"]) && (
                         <>
                           <div className="border-t border-gray-100 my-1"></div>
                           {adminNavigation.map((item) => (
@@ -157,7 +185,7 @@ export const Header = () => {
                         className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                       >
                         <LogOut className="w-4 h-4 mr-3" />
-                        Sign out
+                        {t("nav.signOut")}
                       </button>
                     </div>
                   )}
@@ -169,13 +197,10 @@ export const Header = () => {
                   to="/login"
                   className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium"
                 >
-                  Sign in
+                  {t("nav.signIn")}
                 </Link>
-                <Link
-                  to="/register"
-                  className="btn-primary"
-                >
-                  Get Started
+                <Link to="/register" className="btn-primary">
+                  {t("nav.getStarted")}
                 </Link>
               </div>
             )}
@@ -208,7 +233,27 @@ export const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              
+
+              {/* Mobile Language Selector */}
+              <div className="px-3 py-2">
+                <label className="block text-xs text-gray-500 mb-1">
+                  {t("language.label")}
+                </label>
+                <select
+                  aria-label={t("language.label")}
+                  className="w-full border border-gray-300 rounded-md text-sm px-2 py-2 bg-white text-gray-700"
+                  value={i18n.language}
+                  onChange={(e) => i18n.changeLanguage(e.target.value)}
+                >
+                  <option value="en">{t("language.en")}</option>
+                  <option value="am">{t("language.am")}</option>
+                  <option value="ti">{t("language.ti")}</option>
+                  <option value="om">{t("language.om")}</option>
+                  <option value="fr">{t("language.fr")}</option>
+                  <option value="ar">{t("language.ar")}</option>
+                </select>
+              </div>
+
               {isAuthenticated ? (
                 <>
                   <div className="border-t border-gray-200 my-2"></div>
@@ -222,8 +267,8 @@ export const Header = () => {
                       {item.name}
                     </Link>
                   ))}
-                  
-                  {hasRole(['admin', 'super_admin']) && (
+
+                  {hasRole(["admin", "super_admin"]) && (
                     <>
                       <div className="border-t border-gray-200 my-2"></div>
                       {adminNavigation.map((item) => (
@@ -247,14 +292,14 @@ export const Header = () => {
                     className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Sign in
+                    {t("nav.signIn")}
                   </Link>
                   <Link
                     to="/register"
                     className="btn-primary block text-center mx-3"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Get Started
+                    {t("nav.getStarted")}
                   </Link>
                 </>
               )}

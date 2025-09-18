@@ -1,0 +1,45 @@
+{
+  "app": {"name": "Emagn", "tagline": "Guddina Tajaajila Ittiin Amantamaa"},
+  "nav": {
+    "home": "Mana",
+    "products": "Oomishaalee",
+    "dashboard": "Daashboordii",
+    "profile": "Piroofaayilii",
+    "transactions": "Mootummaawwan Maallaqaa",
+    "disputes": "Mormii",
+    "admin": "Daashboordii Bulchaa",
+    "users": "Fayyadamtoota",
+    "settings": "Seerota",
+    "signIn": "Seeni",
+    "getStarted": "Jalqabi",
+    "signOut": "Ba'i",
+    "searchPlaceholder": "Oomishaalee barbaadi..."
+  },
+  "footer": {
+    "quickLinks": "Links Ariifataa",
+    "browseProducts": "Oomishaalee ilaali",
+    "aboutUs": "Waa'ee Keenya",
+    "helpCenter": "Gargaarsa",
+    "contactUs": "Nu quunnamaa",
+    "privacyPolicy": "Heera Privacy",
+    "terms": "Haala Tajaajilaa",
+    "contactInfo": "Odeeffannoo Quunnamtii",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Daandii Daldalaa\nSuuyitii 100\nNew York, NY 10001",
+    "copyright": "© 2024 Emagn Platform. Mirgi Qopheessa.",
+    "security": "Nageenya",
+    "disputeResolution": "Furuinsa Mormii",
+    "howEscrowWorks": "Eskiroo Akkamitti Ho'aa"
+  },
+  "home": {
+    "hero": {"title1": "Tajaajila Ittiin Amantamaa", "title2": "Salphaa Ta'e", "subtitle": "Bishaaniin fi gurgurtaa ittiin amantamaa. Maallaqni keessan hanga erga geessanii mirkaneessitanitti keessa eskiruutii jiraata.", "browse": "Oomishaalee Ilaali", "dashboard": "Daashboordii Galchi", "getStarted": "Bilaashaan Jalqabi"},
+    "why": {"title": "Maaliif Emagn?", "subtitle": "Nageenya, amanamummaa fi tajaajila salphaa irratti xiyyeeffanneerra.", "features": {"secureEscrowTitle": "Eskiruutii Ittiin Nageenya", "secureEscrowDesc": "Maallaqni keessan hanga erga mirkaneessitanitti eeggama.", "trustedCommunityTitle": "Hawaasa Amanamaa", "trustedCommunityDesc": "Hawaasa bittoota fi gurgurtoota mirkanaa'anii.", "easyTransactionsTitle": "Hojii Maallaqaa Salphaa", "easyTransactionsDesc": "Karoora kaffaltii nageenya qabu.", "disputeResolutionTitle": "Furuinsa Mormii", "disputeResolutionDesc": "Furuinsa namootaan hogganamu"}},
+    "how": {"title": "Akkaataa Hojjetu", "subtitle": "Tarkaanfiiwwan Salphaa", "step1Title": "Barbaadi fi Filadhu", "step1Desc": "Oomisha gaarii barbaadi.", "step2Title": "Kaffaltii Nageenya Qabu", "step2Desc": "Kaffaltiin hanga mirkaneessitanitti jiraata.", "step3Title": "Mirkaneessi fi Xumuri", "step3Desc": "Erga argitan booda gurgurtaan ni kaffalama"},
+    "testimonials": {"title": "Yaada Fayyadamtootaa", "subtitle": "Fayyadamtoota gammadaa kumootaan"},
+    "cta": {"title": "Jalqabuuf Qophiidhaa?", "subtitle": "Tajaajila keenya waliin makamaa", "createAccount": "Akkaawuntii Uumi"},
+    "stats": {"activeUsers": "Fayyadamtoota Aktiivaa", "productsListed": "Oomishaalee Tarreeffaman", "successfulTransactions": "Hojii Maallaqaa Milkaa'an", "disputeResolutionRate": "Sadarkaa Furuu Mormii"}
+  },
+  "language": {"label": "Afaan", "en": "English", "am": "አማርኛ", "ti": "ትግርኛ", "om": "Afaan Oromoo", "fr": "Français", "ar": "العربية"}
+}
+

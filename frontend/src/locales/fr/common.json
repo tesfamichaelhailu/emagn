@@ -1,0 +1,45 @@
+{
+  "app": {"name": "Emagn", "tagline": "Transactions en ligne sécurisées"},
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "transactions": "Transactions",
+    "disputes": "Litiges",
+    "admin": "Admin",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "signIn": "Connexion",
+    "getStarted": "Commencer",
+    "signOut": "Déconnexion",
+    "searchPlaceholder": "Rechercher des produits..."
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "browseProducts": "Parcourir les produits",
+    "aboutUs": "À propos",
+    "helpCenter": "Centre d'aide",
+    "contactUs": "Nous contacter",
+    "privacyPolicy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contactInfo": "Infos de contact",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Rue du Commerce\nSuite 100\nNew York, NY 10001",
+    "copyright": "© 2024 Emagn Platform. Tous droits réservés.",
+    "security": "Sécurité",
+    "disputeResolution": "Résolution des litiges",
+    "howEscrowWorks": "Comment fonctionne l'escrow"
+  },
+  "home": {
+    "hero": {"title1": "Transactions en ligne sécurisées", "title2": "Simplifiées", "subtitle": "Achetez et vendez en toute confiance.", "browse": "Parcourir les produits", "dashboard": "Aller au tableau de bord", "getStarted": "Commencer gratuitement"},
+    "why": {"title": "Pourquoi Emagn ?", "subtitle": "Nous privilégions la sécurité et l'expérience.", "features": {"secureEscrowTitle": "Escrow sécurisé", "secureEscrowDesc": "Vos paiements sont protégés jusqu'à la livraison.", "trustedCommunityTitle": "Communauté de confiance", "trustedCommunityDesc": "Des acheteurs et vendeurs vérifiés.", "easyTransactionsTitle": "Transactions faciles", "easyTransactionsDesc": "Paiement simple et sécurisé.", "disputeResolutionTitle": "Résolution des litiges", "disputeResolutionDesc": "Médiation humaine pour des résultats équitables."}},
+    "how": {"title": "Comment ça marche", "subtitle": "Étapes simples", "step1Title": "Parcourir & Sélectionner", "step1Desc": "Trouvez le produit parfait.", "step2Title": "Paiement sécurisé", "step2Desc": "Paiement conservé jusqu'à confirmation.", "step3Title": "Confirmer & Terminer", "step3Desc": "Le vendeur est payé après confirmation."},
+    "testimonials": {"title": "Ce que disent nos utilisateurs", "subtitle": "Des milliers d'utilisateurs satisfaits"},
+    "cta": {"title": "Prêt à commencer ?", "subtitle": "Rejoignez notre place de marché sécurisée.", "createAccount": "Créer un compte"},
+    "stats": {"activeUsers": "Utilisateurs actifs", "productsListed": "Produits listés", "successfulTransactions": "Transactions réussies", "disputeResolutionRate": "Taux de résolution des litiges"}
+  },
+  "language": {"label": "Langue", "en": "English", "am": "Amharique", "ti": "Tigrigna", "om": "Afan Oromo", "fr": "Français", "ar": "Arabe"}
+}
+

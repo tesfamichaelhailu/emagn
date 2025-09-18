@@ -1,0 +1,79 @@
+{
+  "app": {"name": "እማኝ", "tagline": "የታመነ መስመር ላይ ግብይት"},
+  "nav": {
+    "home": "መነሻ",
+    "products": "ምርቶች",
+    "dashboard": "ዳሽቦርድ",
+    "profile": "መገለጫ",
+    "transactions": "የክፍያ ታሪኮች",
+    "disputes": "ክርክሮች",
+    "admin": "የአስተዳዳሪ ዳሽቦርድ",
+    "users": "ተጠቃሚዎች",
+    "settings": "ቅንብሮች",
+    "signIn": "ግባ",
+    "getStarted": "ጀምር",
+    "signOut": "ውጣ",
+    "searchPlaceholder": "ምርቶችን ፈልግ..."
+  },
+  "home": {
+    "hero": {
+      "title1": "የታመነ መስመር ላይ ግብይት",
+      "title2": "ቀላል ተሞክሮ",
+      "subtitle": "በእርግጥ ግዢና መሸጫ አድርጉ። እስክትቀበሉ ድረስ ገንዘብዎ በኤስክሮ ይጠበቃል፣ ክርክር ሲኖር ፍትሃዊ መፍትሄ ይሰጣል።",
+      "browse": "ምርቶችን ተመልከት",
+      "dashboard": "ወደ ዳሽቦርድ ሂድ",
+      "getStarted": "ነፃ ጀምር"
+    },
+    "why": {
+      "title": "ለምን እማኝ?",
+      "subtitle": "ደህንነት፣ እምነት እና ቀላል ተጠቃሚ ተሞክሮን አስቀድመን ገንብተናል።",
+      "features": {
+        "secureEscrowTitle": "የኤስክሮ ጥበቃ",
+        "secureEscrowDesc": "እስክትያዙ ድረስ ክፍያዎ በደህና ይጠበቃል፣ ገዢና ሻጭ ሁለቱንም ይጠብቃል።",
+        "trustedCommunityTitle": "ታማኝ ማህበረሰብ",
+        "trustedCommunityDesc": "የተረጋገጡ ገዢዎችና ሻጮች ጋር ይቀላቀሉ።",
+        "easyTransactionsTitle": "ቀላል ክፍያዎች",
+        "easyTransactionsDesc": "ቀላል እና የተጠበቀ ክፍያ ሂደት።",
+        "disputeResolutionTitle": "የክርክር መፍትሄ",
+        "disputeResolutionDesc": "በሰው ኃይል የሚመራ ፍትሃዊ መፍትሄ።"
+      }
+    },
+    "how": {
+      "title": "እንዴት ይሰራ",
+      "subtitle": "ቀላል እርምጃዎች",
+      "step1Title": "ፈልግ እና ምርጥ",
+      "step1Desc": "የሚፈልጉትን ምርት ያግኙ እና ወደ ቅርጸ ቁልፍ ያክሉ።",
+      "step2Title": "የተጠበቀ ክፍያ",
+      "step2Desc": "እስክትያዙ ድረስ ክፍያዎ በኤስክሮ ይጠበቃል።",
+      "step3Title": "አረጋግጥ እና ፈጽም",
+      "step3Desc": "ምርቱን ከተቀበሉ በኋላ ሻጩ በራሱ ይከፈላል።"
+    },
+    "testimonials": {"title": "የተጠቃሚዎቻችን አስተያየት", "subtitle": "ብዙ የእርካታ ተጠቃሚዎች"},
+    "cta": {"title": "ጀምር?", "subtitle": "ወደ ገበያችን ይቀላቀሉ", "createAccount": "መለያ ፍጠር"},
+    "stats": {
+      "activeUsers": "ንቁ ተጠቃሚዎች",
+      "productsListed": "የተመዘገቡ ምርቶች",
+      "successfulTransactions": "የተሳካ ግብይት",
+      "disputeResolutionRate": "የክርክር መፍትሄ መጠን"
+    }
+  },
+  "footer": {
+    "quickLinks": "ፈጣን ማገናኛዎች",
+    "browseProducts": "ምርቶችን ተመልከት",
+    "aboutUs": "ስለ እኛ",
+    "helpCenter": "የእገዛ ማእከል",
+    "contactUs": "አግኙን",
+    "privacyPolicy": "የግላዊነት ደንብ",
+    "terms": "የአገልግሎት ሁኔታዎች",
+    "contactInfo": "የእውቂያ መረጃ",
+    "email": "support@emagn.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 የንግድ መንገድ\nሱይት 100\nኒው ዮርክ, NY 10001",
+    "copyright": "© 2024 እማኝ መድረክ. መብቶች በሙሉ የተጠበቁ ናቸው.",
+    "security": "ደህንነት",
+    "disputeResolution": "የክርክር መፍትሄ",
+    "howEscrowWorks": "ኤስክሮ እንዴት እየሰራ ነው"
+  },
+  "language": {"label": "ቋንቋ", "en": "English", "am": "አማርኛ", "ti": "ትግርኛ", "om": "ኦሮምኛ", "fr": "Français", "ar": "العربية"}
+}
+
